@@ -1,4 +1,4 @@
-package com.eemi.anim4j.core.client;
+package com.ati.anim4j.core.client;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
@@ -31,8 +31,8 @@ public abstract class JsObject {
     }
 
     public native String[] getProperties() /*-{
-		var jsObj = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
-		return @com.eemi.anim4j.core.client.JsoHelper::getProperties(Lcom/google/gwt/core/client/JavaScriptObject;)(jsObj);
+		var jsObj = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		return @com.ati.anim4j.core.client.JsoHelper::getProperties(Lcom/google/gwt/core/client/JavaScriptObject;)(jsObj);
     }-*/;
 
 }

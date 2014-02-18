@@ -1,4 +1,4 @@
-package com.eemi.anim4j.core.client;
+package com.ati.anim4j.core.client;
 
 /**
  * CSS color names

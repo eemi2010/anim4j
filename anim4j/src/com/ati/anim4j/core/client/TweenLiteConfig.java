@@ -1,4 +1,4 @@
-package com.eemi.anim4j.core.client;
+package com.ati.anim4j.core.client;
 
 import com.google.gwt.core.client.JavaScriptObject;
 
@@ -769,7 +769,7 @@ public class TweenLiteConfig extends JsObject {
 
     protected native JavaScriptObject fromFunction(Function fn)/*-{
 		return function() {
-			fn.@com.eemi.anim4j.core.client.Function::execute()();
+			fn.@com.ati.anim4j.core.client.Function::execute()();
 		};
     }-*/;
 

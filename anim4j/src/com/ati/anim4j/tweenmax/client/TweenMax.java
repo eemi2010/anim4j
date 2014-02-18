@@ -1,11 +1,11 @@
-package com.eemi.anim4j.tweenmax.client;
+package com.ati.anim4j.tweenmax.client;
 
-import com.eemi.anim4j.core.client.Animation;
-import com.eemi.anim4j.core.client.Function;
-import com.eemi.anim4j.core.client.TweenMaxConfig;
+import com.ati.anim4j.core.client.Animation;
+import com.ati.anim4j.core.client.Function;
+import com.ati.anim4j.core.client.TweenMaxConfig;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;
-import com.google.gwt.user.client.Element;
+import com.google.gwt.dom.client.Element;
 import com.google.gwt.user.client.ui.Widget;
 
 /**
@@ -70,17 +70,17 @@ public class TweenMax extends Animation {
      * @return self (makes chaining easier)
      */
     public native TweenMax to(Element target, double duration, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public native TweenMax to(JavaScriptObject target, double duration, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -98,10 +98,10 @@ public class TweenMax extends Animation {
      * @return self (makes chaining easier)
      */
     public native TweenMax to(String target, double duration, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
 		;
     }-*/;
 
@@ -122,10 +122,10 @@ public class TweenMax extends Animation {
     }
 
     private native TweenMax _to(JavaScriptObject target, double duration, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -140,11 +140,11 @@ public class TweenMax extends Animation {
      * frames).
      */
     public native TweenMax delayCall(double delay, Function callback)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(delay, function() {
-			callback.@com.eemi.anim4j.core.client.Function::execute()();
+			callback.@com.ati.anim4j.core.client.Function::execute()();
 		});
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -152,11 +152,11 @@ public class TweenMax extends Animation {
      * frames).
      */
     public native TweenMax delayCall(double delay, Function callback, boolean useFrames)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(delay, function() {
-			callback.@com.eemi.anim4j.core.client.Function::execute()();
+			callback.@com.ati.anim4j.core.client.Function::execute()();
 		}, null, null, useFrames);
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -178,10 +178,10 @@ public class TweenMax extends Animation {
      * them to look at the end of the tween and then animate in from elsewhere.
      */
     public native TweenMax from(Element target, double duration, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -192,10 +192,10 @@ public class TweenMax extends Animation {
      * them to look at the end of the tween and then animate in from elsewhere.
      */
     public native TweenMax from(String target, double duration, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
 		;
     }-*/;
 
@@ -216,10 +216,10 @@ public class TweenMax extends Animation {
     }
 
     private native TweenMax _from(JavaScriptObject target, double duration, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -228,11 +228,11 @@ public class TweenMax extends Animation {
      * which are based on the target's current values at one end or the other).
      */
     public native TweenMax fromTo(String target, double duration, TweenMaxConfig fromConfig, TweenMaxConfig toConfig)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.fromTo(target, duration,
-				fromConfig.@com.eemi.anim4j.core.client.JsObject::getJsObj()(),
-				toConfig.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				fromConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()(),
+				toConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -241,11 +241,11 @@ public class TweenMax extends Animation {
      * which are based on the target's current values at one end or the other).
      */
     public native TweenMax fromTo(Element target, double duration, TweenMaxConfig fromConfig, TweenMaxConfig toConfig)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.fromTo(target, duration,
-				fromConfig.@com.eemi.anim4j.core.client.JsObject::getJsObj()(),
-				toConfig.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				fromConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()(),
+				toConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -260,11 +260,11 @@ public class TweenMax extends Animation {
 
     private native TweenMax _fromTo(JavaScriptObject target, double duration, TweenMaxConfig fromConfig,
                     TweenMaxConfig toConfig)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.fromTo(target, duration,
-				fromConfig.@com.eemi.anim4j.core.client.JsObject::getJsObj()(),
-				toConfig.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
-		return @com.eemi.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				fromConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()(),
+				toConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ati.anim4j.tweenmax.client.TweenMax::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TweenMax fromTo(TweenMaxConfig fromConfig, TweenMaxConfig endConfig, double duration, Widget... targets) {
@@ -284,32 +284,32 @@ public class TweenMax extends Animation {
     }
 
     public native void killDelayedCallsTo(Function callback)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		peer.killDelayedCallsTo(function() {
-			callback.@com.eemi.anim4j.core.client.Function::execute()();
+			callback.@com.ati.anim4j.core.client.Function::execute()();
 		});
     }-*/;
 
     public native void killTweensOf(String target)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		peer.killTweensOf(target);
     }-*/;
 
     public native void killTweensOf(String target, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		peer.killTweensOf(target,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
     }-*/;
 
     public native void killTweensOf(Element target)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		peer.killTweensOf(target);
     }-*/;
 
     public native void killTweensOf(Element target, TweenMaxConfig config)/*-{
-		var peer = this.@com.eemi.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
 		peer.killTweensOf(target,
-				config.@com.eemi.anim4j.core.client.JsObject::getJsObj()());
+				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
     }-*/;
 
     public void killTweensOf(Widget target) {
