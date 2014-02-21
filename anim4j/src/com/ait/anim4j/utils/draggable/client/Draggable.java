@@ -1,4 +1,4 @@
-package com.ati.anim4j.utils.draggable.client;
+package com.ait.anim4j.utils.draggable.client;
 
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.user.client.ui.Widget;

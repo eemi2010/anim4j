@@ -1,4 +1,4 @@
-package com.ati.anim4j.core.client;
+package com.ait.anim4j.core.client;
 
 /**
  * Configuration object for tween max animations

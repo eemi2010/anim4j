@@ -1,4 +1,4 @@
-package com.ati.anim4j.core.client;
+package com.ait.anim4j.core.client;
 
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.dom.client.Element;
@@ -36,7 +36,7 @@ public class Animation extends JsObject {
      * to grow tenfold.
      */
     public native void setDelay(double value)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.delay(value);
     }-*/;
 
@@ -49,7 +49,7 @@ public class Animation extends JsObject {
      * cycles).
      */
     public native void setDuration(double value)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.duration(value);
     }-*/;
 
@@ -63,7 +63,7 @@ public class Animation extends JsObject {
      * animation (duration, startTime, delay) will not be affected.
      */
     public native void invalidate()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.invalidate();
     }-*/;
 
@@ -83,7 +83,7 @@ public class Animation extends JsObject {
      * results as {x:false, y:false}.
      */
     public native void kill()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.kill();
     }-*/;
 
@@ -103,12 +103,12 @@ public class Animation extends JsObject {
      * results as {x:false, y:false}.
      */
     public native void kill(TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
-		peer.kill(config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
+		peer.kill(config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
     }-*/;
 
     public native void kill(Element target)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.kill(null, target);
     }-*/;
 
@@ -117,8 +117,8 @@ public class Animation extends JsObject {
     }
 
     public native void kill(TweenLiteConfig config, Element target)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
-		peer.kill(config.@com.ati.anim4j.core.client.JsObject::getJsObj()(),
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
+		peer.kill(config.@com.ait.anim4j.core.client.JsObject::getJsObj()(),
 				target);
     }-*/;
 
@@ -140,7 +140,7 @@ public class Animation extends JsObject {
      * suppressEvents parameter to false.
      */
     public native void pause()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.pause();
     }-*/;
 
@@ -158,7 +158,7 @@ public class Animation extends JsObject {
      * suppressEvents parameter to false.
      */
     public native void pause(double time)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.pause(time);
     }-*/;
 
@@ -176,7 +176,7 @@ public class Animation extends JsObject {
      * suppressEvents parameter to false.
      */
     public native void pause(String label)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.pause(label);
     }-*/;
 
@@ -194,7 +194,7 @@ public class Animation extends JsObject {
      * suppressEvents parameter to false.
      */
     public native void pause(double time, boolean supressEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.pause(time, suppressEvent);
     }-*/;
 
@@ -212,7 +212,7 @@ public class Animation extends JsObject {
      * suppressEvents parameter to false.
      */
     public native void pause(String label, boolean supressEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.pause(label, supressEvent);
     }-*/;
 
@@ -234,7 +234,7 @@ public class Animation extends JsObject {
      * @return
      */
     public native boolean isPaused()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		return peer.paused();
     }-*/;
 
@@ -255,78 +255,78 @@ public class Animation extends JsObject {
      * suppressEvents parameter to false. @return
      */
     public native void play()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.play();
     }-*/;
 
     public native void play(double from)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.play(from);
     }-*/;
 
     public native void play(double from, boolean supressEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.play(from, supressEvent);
     }-*/;
 
     public native void play(String from)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.play(from);
     }-*/;
 
     public native void play(String from, boolean supressEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.play(from, supressEvent);
     }-*/;
 
     public native void restart(boolean includeDelay, boolean supressEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.restart(includeDelay, supressEvent);
     }-*/;
 
     public native void restart()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.restart();
     }-*/;
 
     public native void resume()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.resume();
     }-*/;
 
     public native void resume(double from)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.resume(from);
     }-*/;
 
     public native void resume(double from, boolean supressEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.resume(from, supressEvent);
     }-*/;
 
     public native void resume(String from)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.resume(from);
     }-*/;
 
     public native void resume(String from, boolean supressEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.resume(from, supressEvent);
     }-*/;
 
     public native void reverse(double from, boolean supprennEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.reverse(from, supressEvent);
     }-*/;
 
     public native <T extends Animation> T reverse()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.reverse();
 		return this;
     }-*/;
 
     public native void reverse(String from, boolean supprennEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.reverse(from, supressEvent);
     }-*/;
 
@@ -342,12 +342,12 @@ public class Animation extends JsObject {
      * @return
      */
     public native boolean isReversed(String from)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		return peer.reversed();
     }-*/;
 
     public native void seek(double time, boolean supprennEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.seek(time, supressEvent);
     }-*/;
 
@@ -368,7 +368,7 @@ public class Animation extends JsObject {
      * smoothChildTiming property of timelines for more details.
      */
     public native double getStartTime()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		return peer.startTime();
     }-*/;
 
@@ -385,7 +385,7 @@ public class Animation extends JsObject {
      * smoothChildTiming property of timelines for more details.
      */
     public native void setStartTime(double time)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.startTime(time);
     }-*/;
 
@@ -399,7 +399,7 @@ public class Animation extends JsObject {
      * midway podouble (because it's half of the duration).
      */
     public native void setTime(double time)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.time(time);
     }-*/;
 
@@ -413,7 +413,7 @@ public class Animation extends JsObject {
      * midway podouble (because it's half of the duration).
      */
     public native void setTime(double time, boolean supressEvent)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.time(time, supressEvent);
     }-*/;
 
@@ -427,7 +427,7 @@ public class Animation extends JsObject {
      * midway point (because it's half of the duration).
      */
     public native double getTime()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		return peer.time();
     }-*/;
 
@@ -440,7 +440,7 @@ public class Animation extends JsObject {
      * tween the timeScale to gradually slow it down or speed it up.
      */
     public native void setTimeScale(double value)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.timeScale(value);
     }-*/;
 
@@ -452,7 +452,7 @@ public class Animation extends JsObject {
      * total cycles).
      */
     public native void setTotalDuration(double value)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.totalDuration(value);
     }-*/;
 
@@ -467,7 +467,7 @@ public class Animation extends JsObject {
      * the tween.
      */
     public native void setTotalTime(double value)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.totalTime(value);
     }-*/;
 
@@ -482,7 +482,7 @@ public class Animation extends JsObject {
      * the tween.
      */
     public native double getTotalTime()/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		return peer.totalTime();
     }-*/;
 
@@ -491,7 +491,7 @@ public class Animation extends JsObject {
      * (false by default except on the root timeline(s))
      */
     public native void setAutoRemoveChildren(boolean value)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.autoRemoveChildren = value;
     }-*/;
 
@@ -501,7 +501,7 @@ public class Animation extends JsObject {
      * playback when properties are changed on-the-fly.
      */
     public native void setSmoothChildTiming(boolean value)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.smoothChildTiming = value;
     }-*/;
 }

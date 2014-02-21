@@ -1,4 +1,4 @@
-package com.ati.anim4j.core.client;
+package com.ait.anim4j.core.client;
 
 /**
  * Generic interface to use as callback

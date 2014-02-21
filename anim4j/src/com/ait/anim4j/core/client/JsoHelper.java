@@ -14,7 +14,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.ati.anim4j.core.client;
+package com.ait.anim4j.core.client;
 
 import java.util.Date;
 import java.util.Iterator;
@@ -50,7 +50,7 @@ public class JsoHelper {
     public static native JavaScriptObject[] getAttributeAsJavaScriptObjectArray(JavaScriptObject elem, String attr) /*-{
 		var arrayJS = elem[attr];
 		return (arrayJS === undefined) ? null
-				: @com.ati.anim4j.core.client.JsoHelper::toArray(Lcom/google/gwt/core/client/JavaScriptObject;)(arrayJS);
+				: @com.ait.anim4j.core.client.JsoHelper::toArray(Lcom/google/gwt/core/client/JavaScriptObject;)(arrayJS);
     }-*/;
 
     public static JavaScriptObject[] toArray(JavaScriptObject array) {
@@ -113,7 +113,7 @@ public class JsoHelper {
 
     public static native void setAttribute(JavaScriptObject elem, String attr, Function handler) /*-{
 		elem[attr] = function() {
-			handler.@com.ati.anim4j.core.client.Function::execute()();
+			handler.@com.ait.anim4j.core.client.Function::execute()();
 		};
     }-*/;
 
@@ -150,7 +150,7 @@ public class JsoHelper {
 
     public static native Date getAttributeAsDate(JavaScriptObject elem, String attr) /*-{
                                                                                    var ret = elem[attr];
-                                                                                   return (ret === undefined || ret == null) ? null: @com.ati.anim4j.core.client.JsoHelper::toDate(D)(ret.getTime());
+                                                                                   return (ret === undefined || ret == null) ? null: @com.ait.anim4j.core.client.JsoHelper::toDate(D)(ret.getTime());
                                                                                    }-*/;
 
     public static native float getAttributeAsFloat(JavaScriptObject elem, String attr) /*-{
@@ -447,11 +447,11 @@ public class JsoHelper {
     }
 
     public static native String[] getProperties(JavaScriptObject jsObj) /*-{
-		var props = @com.ati.anim4j.core.client.JsoHelper::createJavaScriptArray()();
+		var props = @com.ait.anim4j.core.client.JsoHelper::createJavaScriptArray()();
 		for ( var k in jsObj) {
 			props.push(k);
 		}
-		return @com.ati.anim4j.core.client.JsoHelper::convertToJavaStringArray(Lcom/google/gwt/core/client/JavaScriptObject;)(props);
+		return @com.ait.anim4j.core.client.JsoHelper::convertToJavaStringArray(Lcom/google/gwt/core/client/JavaScriptObject;)(props);
     }-*/;
 
     public static native String getPropertiesAsString(JavaScriptObject jsObj) /*-{

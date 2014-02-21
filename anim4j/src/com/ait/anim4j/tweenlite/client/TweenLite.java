@@ -1,8 +1,8 @@
-package com.ati.anim4j.tweenlite.client;
+package com.ait.anim4j.tweenlite.client;
 
-import com.ati.anim4j.core.client.Animation;
-import com.ati.anim4j.core.client.Function;
-import com.ati.anim4j.core.client.TweenLiteConfig;
+import com.ait.anim4j.core.client.Animation;
+import com.ait.anim4j.core.client.Function;
+import com.ait.anim4j.core.client.TweenLiteConfig;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.core.client.JsArray;
 import com.google.gwt.dom.client.Element;
@@ -67,10 +67,10 @@ public class TweenLite extends Animation {
      * @return self (makes chaining easier)
      */
     public native TweenLite to(Element target, double duration, TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
-				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TweenLite to(TweenLiteConfig config, double duration, Widget... targets) {
@@ -90,10 +90,10 @@ public class TweenLite extends Animation {
     }
 
     private native TweenLite _to(JavaScriptObject target, double duration, TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
-				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -111,10 +111,10 @@ public class TweenLite extends Animation {
      * @return self (makes chaining easier)
      */
     public native TweenLite to(String target, double duration, TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(target, duration,
-				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -122,11 +122,11 @@ public class TweenLite extends Animation {
      * frames).
      */
     public native TweenLite delayCall(double delay, Function callback)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(delay, function() {
-			callback.@com.ati.anim4j.core.client.Function::execute()();
+			callback.@com.ait.anim4j.core.client.Function::execute()();
 		});
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -134,11 +134,11 @@ public class TweenLite extends Animation {
      * frames).
      */
     public native TweenLite delayCall(double delay, Function callback, boolean useFrames)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.to(delay, function() {
-			callback.@com.ati.anim4j.core.client.Function::execute()();
+			callback.@com.ait.anim4j.core.client.Function::execute()();
 		}, null, null, useFrames);
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -167,10 +167,10 @@ public class TweenLite extends Animation {
      * them to look at the end of the tween and then animate in from elsewhere.
      */
     public native TweenLite from(Element target, double duration, TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
-				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TweenLite from(TweenLiteConfig config, double duration, Widget... targets) {
@@ -190,10 +190,10 @@ public class TweenLite extends Animation {
     }
 
     private native TweenLite _from(JavaScriptObject target, double duration, TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
-				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -204,10 +204,10 @@ public class TweenLite extends Animation {
      * them to look at the end of the tween and then animate in from elsewhere.
      */
     public native TweenLite from(String target, double duration, TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.from(target, duration,
-				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -216,11 +216,11 @@ public class TweenLite extends Animation {
      * which are based on the target's current values at one end or the other).
      */
     public native TweenLite fromTo(String target, double duration, TweenLiteConfig fromConfig, TweenLiteConfig toConfig)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.fromTo(target, duration,
-				fromConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()(),
-				toConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				fromConfig.@com.ait.anim4j.core.client.JsObject::getJsObj()(),
+				toConfig.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -229,11 +229,11 @@ public class TweenLite extends Animation {
      * which are based on the target's current values at one end or the other).
      */
     public native TweenLite fromTo(Element target, double duration, TweenLiteConfig fromConfig, TweenLiteConfig toConfig)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.fromTo(target, duration,
-				fromConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()(),
-				toConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				fromConfig.@com.ait.anim4j.core.client.JsObject::getJsObj()(),
+				toConfig.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     /**
@@ -248,11 +248,11 @@ public class TweenLite extends Animation {
 
     private native TweenLite _fromTo(JavaScriptObject target, double duration, TweenLiteConfig fromConfig,
                     TweenLiteConfig toConfig)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var obj = peer.fromTo(target, duration,
-				fromConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()(),
-				toConfig.@com.ati.anim4j.core.client.JsObject::getJsObj()());
-		return @com.ati.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
+				fromConfig.@com.ait.anim4j.core.client.JsObject::getJsObj()(),
+				toConfig.@com.ait.anim4j.core.client.JsObject::getJsObj()());
+		return @com.ait.anim4j.tweenlite.client.TweenLite::new(Lcom/google/gwt/core/client/JavaScriptObject;)(obj);
     }-*/;
 
     public TweenLite fromTo(TweenLiteConfig fromConfig, TweenLiteConfig endConfig, double duration, Widget... targets) {
@@ -272,32 +272,32 @@ public class TweenLite extends Animation {
     }
 
     public native void killDelayedCallsTo(Function callback)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.killDelayedCallsTo(function() {
-			callback.@com.ati.anim4j.core.client.Function::execute()();
+			callback.@com.ait.anim4j.core.client.Function::execute()();
 		});
     }-*/;
 
     public native void killTweensOf(String target)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.killTweensOf(target);
     }-*/;
 
     public native void killTweensOf(String target, TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.killTweensOf(target,
-				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+				config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
     }-*/;
 
     public native void killTweensOf(Element target)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.killTweensOf(target);
     }-*/;
 
     public native void killTweensOf(Element target, TweenLiteConfig config)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		peer.killTweensOf(target,
-				config.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+				config.@com.ait.anim4j.core.client.JsObject::getJsObj()());
     }-*/;
 
     public void killTweensOf(Widget target) {

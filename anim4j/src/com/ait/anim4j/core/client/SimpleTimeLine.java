@@ -1,4 +1,4 @@
-package com.ati.anim4j.core.client;
+package com.ait.anim4j.core.client;
 
 import java.util.Arrays;
 import java.util.List;
@@ -25,8 +25,8 @@ public class SimpleTimeLine extends Animation {
     }
 
     public native <T extends SimpleTimeLine> T add(Animation animation)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
-		peer.add(animation.@com.ati.anim4j.core.client.JsObject::getJsObj()());
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
+		peer.add(animation.@com.ait.anim4j.core.client.JsObject::getJsObj()());
 		return this
     }-*/;
 
@@ -51,8 +51,8 @@ public class SimpleTimeLine extends Animation {
     }
 
     public native <T extends SimpleTimeLine> T add(Animation animation, String position)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
-		peer.add(animation.@com.ati.anim4j.core.client.JsObject::getJsObj()(),
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
+		peer.add(animation.@com.ait.anim4j.core.client.JsObject::getJsObj()(),
 				position);
 		return this
     }-*/;
@@ -78,7 +78,7 @@ public class SimpleTimeLine extends Animation {
     }
 
     private native <T extends SimpleTimeLine> T _add(JavaScriptObject animations)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var array = new $wnd.Array();
 		for ( var i = 0; i < animations.lenght; i++) {
 			array.push(animations[i]);
@@ -88,7 +88,7 @@ public class SimpleTimeLine extends Animation {
     }-*/;
 
     private native <T extends SimpleTimeLine> T _add(JavaScriptObject animations, String position)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var array = new $wnd.Array();
 		for ( var i = 0; i < animations.lenght; i++) {
 			array.push(animations[i]);
@@ -98,7 +98,7 @@ public class SimpleTimeLine extends Animation {
     }-*/;
 
     private native <T extends SimpleTimeLine> T _add(JavaScriptObject animations, String position, String align)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var array = new $wnd.Array();
 		for ( var i = 0; i < animations.lenght; i++) {
 			array.push(animations[i]);
@@ -109,7 +109,7 @@ public class SimpleTimeLine extends Animation {
 
     private native <T extends SimpleTimeLine> T _add(JavaScriptObject animations, String position, String align,
                     double stagger)/*-{
-		var peer = this.@com.ati.anim4j.core.client.JsObject::getJsObj()();
+		var peer = this.@com.ait.anim4j.core.client.JsObject::getJsObj()();
 		var array = new $wnd.Array();
 		for ( var i = 0; i < animations.lenght; i++) {
 			array.push(animations[i]);
