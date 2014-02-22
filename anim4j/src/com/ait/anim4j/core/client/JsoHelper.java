@@ -21,6 +21,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.client.JavaScriptObject;
 import com.google.gwt.dom.client.Element;
 
@@ -460,6 +461,26 @@ public class JsoHelper {
 			props += '\n' + k;
 		}
 		return props + '}';
+    }-*/;
+
+    /**
+     * __gwt_ObjectId in devMode needs to be removed in some cases.
+     * 
+     * @param jso
+     */
+    public final static void cleanObjectId(JavaScriptObject jso) {
+        if (jso == null) {
+            return;
+        }
+        if (!GWT.isScript()) {
+            removeGwtObjectIdImpl(jso);
+        }
+    }
+
+    private final static native void removeGwtObjectIdImpl(JavaScriptObject jso) /*-{
+		if (jso['__gwt_ObjectId']) {
+			delete jso['__gwt_ObjectId'];
+		}
     }-*/;
 
 }

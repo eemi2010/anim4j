@@ -23,6 +23,7 @@ public abstract class JsObject {
     }
 
     public JavaScriptObject getJsObj() {
+        JsoHelper.cleanObjectId(jsObj);
         return jsObj;
     }
 
